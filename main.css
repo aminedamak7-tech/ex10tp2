@@ -1,0 +1,38 @@
+body{
+    font-family: Arial;
+}
+
+.important{
+    text-transform: uppercase;
+}
+
+h2:not(.important){
+    color: orange;
+}
+
+p:nth-child(odd){
+    color: grey;
+}
+
+p:nth-child(even){
+    color: rgb(91, 255, 203);
+}
+
+p:first-child{
+    color: green;
+    font-weight: bold;
+}
+
+p:last-child{
+    color: blue;
+    font-style: italic;
+}
+
+p::first-letter{
+    font-size: 2em;
+    color: red;
+}
+
+p:hover{
+    background-color: lightyellow;
+}
